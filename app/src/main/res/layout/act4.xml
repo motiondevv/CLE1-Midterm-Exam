@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -45,18 +46,10 @@
             android:contentDescription=""
             android:gravity="center"
             android:padding="10dp"
-            android:src="@drawable/fries" />
+            android:src="@drawable/friedchic" />
 
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_weight="1"
-            android:contentDescription=""
-            android:gravity="center"
-            android:padding="10dp"
-            android:src="@drawable/hotdog" />
+
 
     </TableRow>
 
@@ -71,24 +64,11 @@
             android:id="@+id/textViewHeader1"
             android:layout_width="46dp"
             android:layout_height="40dp"
-
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/app_name1"
-            android:textColor="@color/black"
+            android:text="@string/app_des4"
+            android:textColor="@color/white"
             android:textSize="30sp" />
-        <TextView
-            android:id="@+id/textViewHeader2"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/app_name2"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
-
-
     </TableRow>
 
     <TableRow
@@ -98,57 +78,17 @@
         android:background="@color/red"
         tools:ignore="UselessParent">
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:contentDescription=""
-            android:gravity="center"
-            android:padding="10dp"
-            android:src="@drawable/burger" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_weight="1"
-            android:contentDescription=""
-            android:gravity="center"
-            android:padding="10dp"
-            android:src="@drawable/friedchic" />
-    </TableRow>
-
-
-    <TableRow
-        android:id="@+id/row4"
-        android:layout_width="321dp"
-        android:layout_height="match_parent"
-        android:background="@color/red"
-        tools:ignore="UselessParent">
-
         <TextView
-            android:id="@+id/textViewHeader3"
+            android:id="@+id/textViewHeader1"
             android:layout_width="46dp"
-            android:layout_height="40dp"
-
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/app_name3"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
-        <TextView
-            android:id="@+id/textViewHeader4"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/app_name4"
-            android:textColor="@color/black"
-            android:textSize="30sp" />
-
+            android:text="Your Jollibee favorites in one Supermeal: 1pc Chickenjoy with rice."
+            android:textColor="@color/white"
+            android:textSize="24sp" />
 
     </TableRow>
+
+
 </TableLayout>

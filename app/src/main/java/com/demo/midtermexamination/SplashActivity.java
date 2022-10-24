@@ -1,4 +1,4 @@
-package com.demo.splashscreendemo;
+package com.demo.midtermexamination;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,7 +11,7 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         MediaPlayer appIntro;
-        appIntro = MediaPlayer.create(SplashActivity.this,R.raw.app_intro);
+        appIntro = MediaPlayer.create(SplashActivity.this,R.raw.sound);
         appIntro.start();
 
         new Handler().postDelayed(new Runnable() {
